@@ -1,0 +1,39 @@
+/* uBlock Orgigin */
+/* Light Theme */
+
+#ublock0-button {
+  /* list-style-image: url() !important; */
+}
+
+#ublock0-button.off {
+  /* list-style-image: url() !important; */
+}
+
+#ublock0-button .toolbarbutton-badge::after {
+  background: rgb(102, 102, 102) none repeat scroll 0% 0%; /* Default */
+  color: rgb(255, 255, 255);                               /* Default */
+  border-radius: 6px !important;
+}
+
+/* Dark Theme */
+/* ... */
+
+/* uBlock */
+/* Light Theme */
+
+#ublock-button {
+  /* list-style-image: url() !important; */
+}
+
+#ublock-button.off {
+  /* list-style-image: url() !important; */
+}
+
+#ublock-button .toolbarbutton-badge::after {
+  background: rgb(102, 102, 102) none repeat scroll 0% 0%; /* Default */
+  color: rgb(255, 255, 255);                               /* Default */
+  border-radius: 6px !important;
+}
+
+/* Dark Theme */
+/* ... */
