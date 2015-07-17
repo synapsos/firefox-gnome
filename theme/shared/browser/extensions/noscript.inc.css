@@ -1,0 +1,47 @@
+/* Yes */
+.toolbarbutton-1.noscript-yes {
+  
+}
+
+/* Partial */
+.toolbarbutton-1.noscript-prt {
+  
+}
+
+/* Forbidden */
+.toolbarbutton-1.noscript-no {
+  
+}
+
+/* Domain Forbidden */
+.toolbarbutton-1.noscript-no-emb {
+  
+}
+
+/* Allow Global */
+.toolbarbutton-1.noscript-glb {
+  
+}
+
+/* Untrusted ?? */
+.toolbarbutton-1.noscript-yu {
+  
+}
+
+/* Untrusted Global */
+.toolbarbutton-1.noscript-untrusted-glb {
+  
+}
+
+/*
+
+States:
+* default
+* white
+
+* temp (clock)
+* partial (small cross)
+* global (!)
+* forbidden (crossed)
+
+*/
