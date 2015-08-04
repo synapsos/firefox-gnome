@@ -210,6 +210,10 @@ tabbrowser[treestyletab-tabbar-position="right"] .treestyletab-splitter[orient="
   background: #215d9c;
 }
 
+#main-window[privatebrowsingmode="temporary"] @treeDefault@ .tabbrowser-tab[visuallyselected] {
+  background: #bc52ff;
+}
+
 @treeDefault@ .tabbrowser-tab[visuallyselected] > .tab-stack {
   color: HighlightText;
 }
