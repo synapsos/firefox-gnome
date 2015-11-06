@@ -27,7 +27,7 @@
   position: relative !important;
 }
 
-@treeDefault@[darkvariant] {
+@treeDefault@[brighttext] {
   background: #454c4c;
 }
 
@@ -55,8 +55,8 @@
   margin: 0 0 0 3px !important;
 }
 
-@treeDefault@[darkvariant] .tabs-newtab-button,
-@treeDefault@[darkvariant] #new-tab-button {
+@treeDefault@[brighttext] .tabs-newtab-button,
+@treeDefault@[brighttext] #new-tab-button {
   border-color: #3e4545 !important;
 }
 
@@ -110,7 +110,7 @@ tabbrowser[treestyletab-tabbar-position="right"] .treestyletab-splitter[orient="
   display: none !important;
 }
 
-#main-window@darkTheme@ .treestyletab-splitter {
+#main-window[brighttext] .treestyletab-splitter { /* #main-window@darkTheme@ */
   background: #454c4c;
   border-color: #1e2222 !important;
 }
@@ -125,8 +125,9 @@ tabbrowser[treestyletab-tabbar-position="right"] .treestyletab-splitter[orient="
   color: #555555;
 }
 
-@treeDefault@[darkvariant] .tabbrowser-tab,
-@treeDefault@[darkvariant] .tabbrowser-tab > .tab-stack {
+/* xxx: obsolete? */
+@treeDefault@[brighttext] .tabbrowser-tab,
+@treeDefault@[brighttext] .tabbrowser-tab > .tab-stack {
   color: #eeeeec;
 }
 
@@ -138,10 +139,11 @@ tabbrowser[treestyletab-tabbar-position="right"] .treestyletab-splitter[orient="
   outline-offset: -3px;
 }
 
+/* todo: change to grey highlight instead of outline */
 @treeDefault@ .tabbrowser-tab[visuallyselected]:hover,
-@treeDefault@[darkvariant] .tabbrowser-tab:hover,
-@treeDefault@[darkvariant] .tabs-newtab-button:hover, 
-@treeDefault@[darkvariant] #new-tab-button:hover {
+@treeDefault@[brighttext] .tabbrowser-tab:hover,
+@treeDefault@[brighttext] .tabs-newtab-button:hover, 
+@treeDefault@[brighttext] #new-tab-button:hover {
   outline: 1px dashed rgba(255, 255, 255, 0.27);
 }
 
@@ -206,7 +208,8 @@ tabbrowser[treestyletab-tabbar-position="right"] .treestyletab-splitter[orient="
   background: Highlight;
 }
 
-@treeDefault@[darkvariant] .tabbrowser-tab[visuallyselected] {
+/* xxx: obsolete? maybe not! */
+@treeDefault@[brighttext] .tabbrowser-tab[visuallyselected] {
   background: #215d9c;
 }
 
@@ -252,11 +255,11 @@ tabbrowser[treestyletab-tabbar-position="right"] .treestyletab-splitter[orient="
 
 /* Selected or Dark theme*/
 @treeDefault@@modernBlack@ .tabbrowser-tab[visuallyselected] .treestyletab-twisty,
-@treeDefault@@modernBlack@[darkvariant] .treestyletab-twisty {
+@treeDefault@@modernBlack@[brighttext] .treestyletab-twisty {
   list-style-image: url("chrome://symbolic-icons/skin/extensions/twisty-adwaita-white-l.png") !important;
 }
 @treeDefault@@modernBlack@[treestyletab-tab-contents-inverted] .tabbrowser-tab[visuallyselected] .treestyletab-twisty,
-@treeDefault@@modernBlack@[darkvariant][treestyletab-tab-contents-inverted] .treestyletab-twisty {
+@treeDefault@@modernBlack@[brighttext][treestyletab-tab-contents-inverted] .treestyletab-twisty {
   list-style-image: url("chrome://symbolic-icons/skin/extensions/twisty-adwaita-white-r.png") !important;
 }
 
